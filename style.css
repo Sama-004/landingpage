@@ -4,10 +4,12 @@
     align-items: center;
 }
 .navlinks{
-    display: flex;
+    /*display: flex;*/
 
 }
-
+body{
+    margin: 0; /* for adding the background color fully and no white spaces*/
+}
 
 .navitem{
     padding: 10px 15px;
@@ -16,6 +18,7 @@
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
+   
 }
 .headerlogotext{
     font-size: 24px;
@@ -23,10 +26,29 @@
 }
 .maintext{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #f9faf8;
     
 }
+.section2{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 50px auto 20px;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 4px 2px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+}
 ul{
-    list-style-type: none;
+    list-style-type: none;  /*removes bullets from list*/
+    display: flex;
 }
