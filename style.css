@@ -28,12 +28,38 @@ body{
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
-    
+    }
+.awesome{
+        font-size: 48px;
+        font-weight: 800;
+        color: #f9faf8;
+    }
+.subtext{
+        font-size: 18px;
+        color: #f9faf8;
+    }
+    /*THE INFORMATION SECTION COMES HERE */
+.aotchar{
+    width: 100px;
+    height: 100px;
+}
+.title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.info{
+    max-width: 200px;
 }
 .section2{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-
     margin: 50px auto 20px;
 }
 button{
@@ -50,5 +76,5 @@ button{
 }
 ul{
     list-style-type: none;  /*removes bullets from list*/
-    display: flex;
+    
 }
