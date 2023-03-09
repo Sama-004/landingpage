@@ -58,9 +58,7 @@ background-color: #1F2937;
     margin-right: auto;
     gap:20px;
 }
-.infoheading{
-    text-align: center;
-}
+
 .info p{
 
     width:180px;
@@ -98,20 +96,19 @@ body{
     align-items: center;
 }
 
-.first-header
-{
-    font-size:48px;
-    font-weight: 900;
-    color: #F9FAF8;
-}
 
+.navlogo{
+    font-size: 24px;
+    
+    color:#F9FAF8;
+}
 .section2{
     gap:100px;
     align-items: center;
 }
-.maintext{
+.infoheading{
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     color: #f9faf8;
     }
 .subtext{
@@ -119,7 +116,13 @@ body{
         color: #f9faf8;
     }
     /*THE INFORMATION SECTION COMES HERE */
-.aotchar{
+.infohead{
+
+    font-size:36px;
+    font-weight: 900;
+    color:#1F2937
+}
+    .aotchar{
     width: 200px;
     height: 200px;
 }
@@ -135,22 +138,33 @@ body{
     width:200px;
 }
 
+.blue{
+    background-color:#3882F6;
+    border-color:#3882F6;
+    border-radius: 10px;
+    color:#F9FAF8;
+    padding:0;
+    width:100px;
+    height:30px;
+}
 /* quote section */
 .quotainer{
     background-color: #e5e7eb;
-    padding: 200px;
+    justify-content: center;
 }
+
 .quote{
+    margin-top:200px;
+    margin-bottom:auto;
     font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
-    width: 100%;
-    text-align: center;
+    font-style:italic;
+    font-weight:400;
+    color:#1F2937
 }
 .quoter{
-    text-align: end;
-    margin-right: 200px;
-   
+    flex-basis: 200px;
+    padding-left:150px;
+
 }
 
 /*sign up buttons*/
