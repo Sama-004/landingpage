@@ -1,8 +1,26 @@
 /*navbar and navlink*/
+.body,
+.black-color,
+.information,
+.quotainer,
+.aotchar,
+.calltoaction{
+    display: flex;
+    flex-direction: column;
+}
+.navbar,
+.section2,
+.container,
+.actiontime,
+.navlinks{
+    display: flex;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     
 }
 .navlinks{
@@ -20,6 +38,7 @@ body{
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
+    padding: 100px;
    
 }
 .headerlogotext{
@@ -55,7 +74,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 52px;
-    padding: 200px;
+    padding: 100px;
 }
 .info{
     max-width: 200px;
@@ -100,4 +119,42 @@ button{
 ul{
     list-style-type: none;  /*removes bullets from list used in navbar*/
     
+}
+
+/* action time*/
+.actiontime{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius:5px;  
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    width: 1000px;
+    margin: 80px 150px 80px 150px;
+}
+
+.calltoaction{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+}
+.actionhead{
+font-weight: 900;
+font-size: 18px;
+margin: 40px 0 0 0;
+}
+.actiontext{
+    margin: 0 0 40px 0;
+}
+
+.foot{      /*the last signup button*/
+    align-self: center;
+    padding: 25px 5px 5px 25px;
+    color: #f9faf8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
 }
