@@ -24,7 +24,17 @@
     
 }
 .navlinks{
-    display: flex;
+    gap:15px;
+    margin-top:20px;
+}
+
+body{
+    margin:0px;
+}
+
+.section1,
+.footer{
+background-color: #1F2937;
 }
 
 .container
@@ -36,7 +46,7 @@
 .infoheading{
     text-align: center;
 }
-.info{
+.info p{
 
     width:180px;
     text-align: center;   
@@ -83,6 +93,11 @@ body{
     font-weight: 900;
     margin-bottom: 10px;
     text-align: center;
+}
+.text{
+    height:200px;
+    border-radius: 10px;
+    width:200px;
 }
 
 /* quote section */
