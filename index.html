@@ -9,17 +9,21 @@
 </head>
 <body>
      <!--<div>-->
-    <div class="section1"> <!--entire 1st section color is defined by this tag that means the paragraph and picture too-->
-        <div class="navbar">    
-            <p class="navlogo"> Header Logo</p>
-        
-                <div class="navlinks">
-                    <a href="#" >Headerone</a>
-                    <a href="#">Headertwo</a>
-                    <a href="#">Headerthree</a>
-                </div>
-                <!--navbar ends here -->
+<header>
+    <div class="nav"> <!--entire 1st section color is defined by this tag that means the paragraph and picture too-->
+        <div class="left">    
+            <p id="navlogo"> Header Logo</p>
         </div>
+        
+                <div class="headers">
+                    <ul>
+                        <li>header one</li>
+                        <li>header two</li>
+                        <li>header three</li>
+                    </ul>
+                    </div>
+                <!--navbar ends here -->
+    </div>
 
 
             <!--1st section the black background and the image and paragraph starts here-->
@@ -27,7 +31,7 @@
 
             <div class="section2">
                 <div class="introtext">
-                    <h1 class="infoheading">This Website is awesome</h1>
+                    <h1 class="infoheading">This Website is<br> awesome</h1>
                         <p class="subtext">This website has some subtext that goes here under the <br> 
                                         main title.It's a smaller font and the color is lower<br> 
                                         contrast
@@ -35,13 +39,16 @@
             
                     <button class="blue">Sign Up</button> <!--onclick="window.location.href='https://www.google.com';" for adding link to button-->
                 </div>            
-                <div class="placeholder">
-                    <p >This is a placeholder for an image</p>
+                <div class="right">
+                    <div class="image">
+                        <p class="secondary">This is a placeholder for an image</p>
+                    </div>    
                 </div>
                 
                
             </div><!--ends the section 2 that is the pragraph and image ends here-->
-    </div> <!--the black color background ends with this div--> 
+</header>   
+            <!--the black color background ends with this div--> 
 
     <!--section3 starts here that is the information photo and subtext under image-->
 
@@ -67,14 +74,15 @@
                     <img class="aotchar" src="images/mikasa.webp" alt="mikasa ackerman">
                     <div class="text"> This is mikasa ackerman she is the best soilder after levi only by few margins and have helped humanity survive</div>
                 </div>
-            </div>    
+            </div>
+        </div>    
             <!--section 4 starts here that is the quote and writers name-->
-            <div class="quotainer">
-                <div class="quote"><p>I'm The Same As You. I Didn't Have Any Other Choice.</p></div>
-                <div class="quoter"><p> - Eren Jaeger </p></div>
+            <div class="quote">
+                <em>I'm The Same As You. I Didn't Have Any Other Choice.</em>
+                <p> - Eren Jaeger </p>
                
-            </div>   
-        </div> 
+            
+            </div>
                 <!--the quote section ends here -->
 
             
@@ -83,14 +91,17 @@
             
                 <!--the last signup section which remoinds of signing up-->
               
-            <div class="actiontime">
-                <div class="calltoaction">
-                        <p class="actionhead"> Call to action! It's time! </p>
-                        <p class="actiontext"> Signup to our project by clicking the button right over here</p>
+                <div class="sign-up">
+                    <div class="action">
+                        <div class="left">
+                            <strong>Call to action! It's time!</strong>
+                            <p class="secondary">Sign up for our product by clicking that button right over there!</p>
+                        </div>
+                        <div class="right">
+                            <button class="secondary">Sign up</button>
+                        </div>
+                    </div>
                 </div>
-                <button class="signup2">Sign Up</button>
-                
-            </div>
                 <!--the action time button ends here-->
                 <!--The footer and copyright section starts here-->
                 
