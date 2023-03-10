@@ -37,10 +37,11 @@
 .navlinks{
     gap:15px;
     margin-top:20px;
+}
+.navlinks a{
     text-decoration: none;
     font-size: 18px;
     color:#E5E7EB;
-
 }
 
 body{
@@ -113,7 +114,7 @@ body{
     }
 .subtext{
         font-size: 18px;
-        color: #f9faf8;
+        color: #e5e7eb;
     }
     /*THE INFORMATION SECTION COMES HERE */
 .infohead{
@@ -152,6 +153,9 @@ body{
     background-color: #e5e7eb;
     justify-content: center;
 }
+.quotainer{
+    text-align: center;
+}
 
 .quote{
     margin-top:200px;
@@ -163,23 +167,15 @@ body{
 }
 .quoter{
     flex-basis: 200px;
-    padding-left:150px;
-
+}
+.quoter{
+    font-size: 18px;
+    padding-left: 150px;
+    font-weight: 900;
+    margin-left: 300px;
 }
 
 /*sign up buttons*/
-button{
-    background-color: #3882f6;
-    color: white;
-    border: none;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 4px 2px;
-    display: inline-block;
-    font-size: 20px;
-    border-radius: 8px;
-}
 
 ul{
     list-style-type: none;  /*removes bullets from list used in navbar*/
@@ -190,13 +186,7 @@ ul{
 .actiontime{
     background-color: #3882F6;
     color:#F9FAF8;
-    border-radius:5px;  
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    height: 140px;
-    width: 1000px;
-    margin: 80px 150px 80px 150px;
+    border-radius:5px;
 }
 
 .calltoaction{
@@ -207,19 +197,43 @@ ul{
     color: white;
 }
 .actionhead{
-font-weight: 900;
-font-size: 18px;
-margin: 40px 0 0 0;
-}
+    font-weight: 900;
+    font-size: 18px;
+    margin:40px 0 0 0;
+    }
 .actiontext{
-    margin: 0 0 40px 0;
+    margin:0 0 40px 0;
 }
 
-.foot{      /*the last signup button*/
+.actiontime{
+    margin:80px 150px 80px 150px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    height:140px;
+    width:1000px;
+}
+    
+/*the last signup button*/
+    
+
+.signup2{
     align-self: center;
-    padding: 25px 5px 5px 25px;
-    color: #f9faf8;
+    padding:5px 25px 5px 25px;
+    color:#F9FAF8;
     background-color: #3882F6;
     border-radius: 10px;
     border-color: #F9FAF8;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+}
+.footer p{
+
+    color: #F9FAF8;
+    font-size:10px;
 }
